@@ -1,6 +1,6 @@
 # CPSC1517 Fall 2023 Term Workbook
 
-## your name here
+## your name here: Justine Querubin
 
 ## your Github Account id
 
