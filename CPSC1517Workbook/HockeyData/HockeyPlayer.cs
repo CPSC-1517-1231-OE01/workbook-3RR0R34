@@ -13,7 +13,7 @@
         private Position _position;
         private Shots _shots;
         //properties
-        public String FirstName 
+        public String FirstName
         {
             get;
             set;
@@ -38,7 +38,7 @@
             get;
             set;
         }
-        public int WeightinPounds 
+        public int WeightinPounds
         {
             get;
             set;
@@ -54,5 +54,11 @@
             set;
         }
         //constructors
+        public void Hockeyplayer()
+        {
+        }
+        public void PlayerConstruct(string firstName, string lastName, string birthPlace, DateOnly dateOfBirth, int weightInPounds, int heightInInches, Shots shot, Position position)
+        {
+        }
     }
 }
