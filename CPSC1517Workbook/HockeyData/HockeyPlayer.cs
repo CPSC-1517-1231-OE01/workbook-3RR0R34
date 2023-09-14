@@ -74,6 +74,10 @@ namespace Hockey.Data
             {
                 // validity check for dates in the future
                 //check documentation for dateonly
+                if (_DateofBirth >= value)
+                {
+                    throw new ArgumentException("How are you born in the future?");
+                }
                 _DateofBirth = value;
             }
         }
@@ -136,7 +140,7 @@ namespace Hockey.Data
             FirstName = firstName;
             LastName = lastName;
             BirthPlace = birthPlace;
-            DateOfBirth = dateOfBirth;
+            DateofBirth = dateOfBirth;
             WeightinPounds = weightInPounds;
             HeightinInches = heightInInches;
             Position = position;
