@@ -1,5 +1,6 @@
 ﻿using System.Reflection.Metadata;
-
+using System;
+using Utils;
 namespace Hockey.Data
 {
     public class HockeyPlayer
@@ -74,7 +75,7 @@ namespace Hockey.Data
             {
                 // validity check for dates in the future
                 //check documentation for dateonly
-                if (_DateofBirth >= value)
+                if (Utilities.IsinTheFuture(value))
                 {
                     throw new ArgumentException("How are you born in the future?");
                 }
@@ -90,7 +91,7 @@ namespace Hockey.Data
 
             set
             {
-                if (value <= 0)
+                if (Utilities.IsPositive(value))
                 {
                     throw new ArgumentException("Height must be positive.");
                 }
@@ -106,7 +107,7 @@ namespace Hockey.Data
 
             set
             {
-                if (value <= 0)
+                if (Utilities.IsPositive(value))
                 {
                     throw new ArgumentException("Weight must be positive.");
                 }

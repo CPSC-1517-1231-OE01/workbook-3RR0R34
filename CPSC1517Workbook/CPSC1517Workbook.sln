@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyData", "HockeyData\HockeyData.csproj", "{B1E35709-E2F8-4004-BA8F-BD45322AC4C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HockeyData", "HockeyData\HockeyData.csproj", "{B1E35709-E2F8-4004-BA8F-BD45322AC4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{68213710-4BCC-4D7E-ABD9-630D42C95326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyConsoleApp", "HockeyConsoleApp\HockeyConsoleApp.csproj", "{D83CA3D5-A820-476E-B348-5F2AF5AD4754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyTestProject", "HockeyTestProject\HockeyTestProject.csproj", "{21FF101E-65BA-49DB-9F0C-FBB7102637C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B1E35709-E2F8-4004-BA8F-BD45322AC4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E35709-E2F8-4004-BA8F-BD45322AC4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E35709-E2F8-4004-BA8F-BD45322AC4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68213710-4BCC-4D7E-ABD9-630D42C95326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68213710-4BCC-4D7E-ABD9-630D42C95326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68213710-4BCC-4D7E-ABD9-630D42C95326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68213710-4BCC-4D7E-ABD9-630D42C95326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83CA3D5-A820-476E-B348-5F2AF5AD4754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83CA3D5-A820-476E-B348-5F2AF5AD4754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83CA3D5-A820-476E-B348-5F2AF5AD4754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83CA3D5-A820-476E-B348-5F2AF5AD4754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FF101E-65BA-49DB-9F0C-FBB7102637C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FF101E-65BA-49DB-9F0C-FBB7102637C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FF101E-65BA-49DB-9F0C-FBB7102637C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FF101E-65BA-49DB-9F0C-FBB7102637C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
